@@ -1,12 +1,12 @@
-import * as React from 'react';
-import Link from 'next/link';
 import Head from 'next/head';
+import Link from 'next/link';
+import * as React from 'react';
 
 type Props = {
   title?: string;
 };
 
-const Layout: React.FunctionComponent<Props> = ({
+const Layout: React.FC<Props> = ({
   children,
   title = 'This is the default title'
 }) => (
