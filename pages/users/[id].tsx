@@ -26,7 +26,10 @@ export default class StaticPropsDetail extends React.Component<Props> {
     }
 
     return (
-      <Layout title={`${item ? item.name : 'User Detail'} | Next.js + TypeScript Example`}>
+      <Layout
+        title={`${
+          item ? item.name : 'User Detail'
+        } | Next.js + TypeScript Example`}>
         {item && <ListDetail item={item} />}
       </Layout>
     );

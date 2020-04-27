@@ -7,7 +7,13 @@
     "prettier/@typescript-eslint",
     "react-app"
   ],
-  "ignorePatterns": [".next", "coverage", "dist", "next.config.js", "node_modules"],
+  "ignorePatterns": [
+    ".next",
+    "coverage",
+    "dist",
+    "next.config.js",
+    "node_modules"
+  ],
   "overrides": [
     {
       "files": ["**/*.js", "**/*.ts", "**/*.tsx"]
