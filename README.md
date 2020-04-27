@@ -1,1 +1,1 @@
-# Cybereum Frontend
+# NextJS-TS-Template
