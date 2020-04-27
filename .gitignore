@@ -1,0 +1,20 @@
+# Files
+.*
+
+# Folders
+coverage
+dist
+node_modules
+
+# Exceptions
+!.babelrc.json
+!.editorconfig
+!.eslintignore
+!.eslintrc.json
+!.github
+!.gitignore
+!.huskyrc.json
+!.prettierrc.json
+!.remarkrc.json
+!.stylelintrc.json
+!.vscode
